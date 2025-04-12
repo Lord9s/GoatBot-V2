@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: GoatBot
+    env: node
+    region: oregon
+    buildCommand: "npm install"
+    startCommand: "npm run start"
+    plan: free
